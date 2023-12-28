@@ -1,0 +1,185 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    background-color: hsl(30, 38%, 92%);
+}
+.wrap
+{
+    /* width: 100vh; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 150px; */
+    flex-wrap: wrap;
+
+}
+.con
+{
+    height: 450px;
+    width: 850px;
+    /* border: 2px solid rgb(49, 249, 23); */
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0 0 10px #000);
+}
+.img-con
+{
+    height: 100%;
+   width: 40%;
+   display: flex;
+}
+.img-con img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 1em 0em 0 1em;
+
+}
+.box
+{
+   height: 100%;
+   width: 60%;
+   /* border: 1px solid red; */
+   display: flex;
+   border-radius: 0 1em 1em 0 ;
+   justify-content: center;
+   align-items: center;
+   background-color: #fff;
+   flex-wrap: wrap;
+}
+.con-txt
+{
+    height: 95%;
+    width: 95%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.pro
+{
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.pro p 
+{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: gray;
+    letter-spacing: 10px;
+    font-size: 18px;
+}
+.title
+{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.title p{
+     color: black;
+     font-family: "Fraunces", serif;
+     font-weight: bold;
+     font-size: 40px;
+}
+.dec
+{
+    height: 25%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.dec p{
+    font-size: 20px;
+     font-family: "Montserrat", sans-serif;
+     font-weight: 500;
+     color: gray;
+}
+.price
+{
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: nowrap;
+
+}
+.price h1 
+{
+    height: 100%;
+    width: 19%;
+    color: hsl(158, 70%, 28%);
+    padding-left: 15px;
+    font-family: "Fraunces", serif;
+    margin-bottom: -0.4em;
+
+    
+}
+.price strike{
+    font-size: 20px;
+    color: grey;
+    margin-bottom: -0.8em;
+
+}
+.buy
+{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.btn
+{
+    height: 70%;
+    width: 70%;
+    background-color: hsl(158, 45%, 38%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.btn:hover
+{
+    height: 70%;
+    width: 70%;
+    background-color: hsl(158, 70%, 28%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.btn h5{
+    color: white;
+    font-size: 20px;
+}
+.btn img{
+    height: 20px;
+    width: 20px;
+}
